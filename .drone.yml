@@ -10,7 +10,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    tags: latest-drone
+    tags: latest-drone-${DRONE_SOURCE_BRANCH}
 
 - name: ssh commands
   image: appleboy/drone-ssh
