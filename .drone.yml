@@ -21,4 +21,3 @@ steps:
       from_secret: ssh_key
     script:
       - cd /var/Wordpress/ && ./restart.sh
-      - echo from_secret: ssh_key
