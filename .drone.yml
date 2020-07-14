@@ -17,10 +17,8 @@ steps:
     settings:
       host: 94.130.59.82
       username: root
-+     key:
-+       from_secret: ssh_key
-+     passphrase: 1234
-      port: 22
+      key:
+        from_secret: ssh_key
       script:
         - cd /var/Wordpress/ && ls -a
         - echo "you can't see the steps."
