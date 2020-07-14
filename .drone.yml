@@ -20,5 +20,5 @@ steps:
     key:
       from_secret: ssh_key
     script:
-      - cd /var/Wordpress/ && ls -a
-      - echo "you can't see the steps."
+      - cd /var/Wordpress/ && ./restart.sh
+      - echo from_secret: ssh_key
