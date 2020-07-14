@@ -5,7 +5,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    repo: foo/bar
+    repo: finstreet/test-deployment
     username:
       from_secret: docker_username
     password:
